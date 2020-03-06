@@ -1,0 +1,26 @@
+/* ㅡㅡㅡㅡㅡ 코드 생성 중 ㅡㅡㅡㅡㅡ */
+
+@media (prefers-color-scheme: dark)
+ {
+    :root {
+	    /* 색상 */
+            --Dblackcolor: #151515;
+            --Dlinecolor: #5d5d5d;
+            --bgColor: #202020;
+
+	    /* URL */
+            --logoURL: url(https://cdn.discordapp.com/attachments/659060062223990812/659071409368203275/N_PC_nt.png); 
+
+	    /* 기타 설정 */	
+            --before: "밤하늘에 늑대별 ";
+            --after: "개";
+}
+
+
+
+
+
+
+
+
+ }
