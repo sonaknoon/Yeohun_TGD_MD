@@ -17,6 +17,10 @@
            --after: "개";
 }
 
+header>#header-area>a>h1 {
+      width: 300px;
+}
+
 header {
     border-bottom: 4px solid #5d5d5d;
     background: #0d0d0d;
