@@ -464,7 +464,10 @@ body > div:nth-child(2) {
 }
 
 #main-content > div > div:nth-child(7) > div {
-	background: url(https://upload.tgd.kr/banner/320x50n.jpg) no-repeat center center;
+	filter: invert(1);
+}
+
+body > div:nth-child(2) > div > div:nth-child(1) {
 	filter: invert(1);
 }
 
