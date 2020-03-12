@@ -524,6 +524,11 @@ body > div:nth-child(2) > div > div:nth-child(1) {
     border: 1px solid #5d5d5d;
 }
 
+/* 위로가기 버튼 */
+#movetotop {
+	filter: grayscale(1);
+}
+
 /* 페이지 하단 링크 */
 a {
     color: #fff;
