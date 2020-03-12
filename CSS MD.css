@@ -323,6 +323,59 @@ nav#nav > #nav-upper #userDropdownContainer a {
     background: #151515;
 }
 
+/* 이전글 다음글 */
+#article-neighbor-list {
+    border-top: 1px solid #5d5d5d;
+}
+
+#article-neighbor-list {
+    background: #151515;
+}
+
+#article-neighbor-list>div>a {
+    color: #fff;
+}
+
+#article-neighbor-list>div:hover {
+	background: #3e3e3e;
+}
+
+/*댓글*/
+
+#article-reply-area > .header h5 {
+    color: #fff;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, 
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    color: #fff;
+}
+
+#article-reply-area #reply-real-area .reply, 
+#article-reply-area #reply-best-area .reply {
+    border: 1px solid #5d5d5d;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header, 
+#article-reply-area #reply-best-area .reply>.reply-header {
+    background: #000;
+    border-bottom: 1px solid #5d5d5d;
+}
+
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, 
+#article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
+    color: #fff;
+}
+
+
+.fa-mail-forward:before, .fa-share:before {
+    color: #fff;
+}
+
+#lastc {
+	color: #fff
+}
 
 
 
