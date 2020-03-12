@@ -237,6 +237,17 @@ header>#header-area>#header-search-link {
     background-color: #3e3e3e;
 }
 
+/* 공지 숨기기 버튼 */
+#article-list #article-option-area>#article-option-area-toggle-btn {
+    background: #303030;
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    border-top: 2px solid transparent;
+    margin-top: 0px;
+    opacity: 1;
+}
+
 /*네비바*/
 
 nav#nav {
