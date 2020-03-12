@@ -72,6 +72,14 @@ header>#header-area>#header-search-link {
     color: #5d5d5d;
 }
 
+.fa-eye:before {
+    text-shadow: none;
+}
+
+.fa-eye-slash:before {
+    text-shadow: none;
+}
+
 /* 게시글 목록 */
 
 #article-list>.article-list-row.notice {
@@ -377,10 +385,133 @@ nav#nav > #nav-upper #userDropdownContainer a {
 	color: #fff
 }
 
+/* 댓글 작성 폼 */
+.fr-toolbar {
+    background: #000;
+}
 
+.fr-element {
+    background: #151515;
+    border: solid 1px #5d5d5d;
+}
 
+.fr-popup,
+.fr-toolbar.fr-top {
+    border: 1px solid #5d5d5d;
+    border-top: 3px solid #5d5d5d;
+}
 
+.fr-toolbar .fr-command.fr-btn, 
+.fr-popup .fr-command.fr-btn {
+    color: #fff;
+}
 
+.fr-box.fr-basic .fr-element {
+    color: #fff;
+}
+
+.fr-desktop .fr-command:hover, 
+.fr-desktop .fr-command:focus, 
+.fr-desktop .fr-command.fr-btn-hover, 
+.fr-desktop .fr-command.fr-expanded {
+    background: #5d5d5d;
+}
+
+.fr-separator {
+    background: #5d5d5d
+}
+
+.fr-command.fr-btn.fr-options.fr-btn-hover, 
+.fr-command.fr-btn.fr-options:hover, 
+.fr-command.fr-btn.fr-options:focus {
+    border-left: solid 1px #000;
+}
+
+.fr-toolbar .fr-command.fr-btn.fr-dropdown::after, 
+.fr-popup .fr-command.fr-btn.fr-dropdown::after {
+    border-top: 4px solid #fff;
+}
+
+#article-reply-area #reply-real-area .reply.active, 
+#article-reply-area #reply-best-area .reply.active {
+    background-color: #000;
+}
+
+.fr-command.fr-btn+.fr-dropdown-menu .fr-dropdown-wrapper {
+    background: #000;
+    color: #fff;
+}
+
+.fr-wrapper .fr-placeholder {
+    z-index: 3;
+}
+
+#comment-write-form > 
+div.fr-box.fr-ltr.fr-basic.fr-top > 
+div.fr-toolbar.fr-ltr.fr-desktop.fr-top.fr-basic.fr-sticky-off > 
+div.fr-popup.fr-desktop.fr-ltr.emoticons {
+	background: #000;
+}
+
+/*상단 광고 영역 */
+body > div:nth-child(2) {
+	background: #0c0d0f !important;
+}
+
+/* 하단 광고 영역 */
+#main-content > div > div:nth-child(7) {
+	background: #0c0d0f !important;
+}
+
+#main-content > div > div:nth-child(7) > div {
+	background: url(https://upload.tgd.kr/banner/320x50n.jpg) no-repeat center center;
+	filter: invert(1);
+}
+
+/* 투표 창 */
+.panel-success {
+    border-color: #5d5d5d;
+}
+
+.panel-success>.panel-heading {
+    color: #fff;
+    background-color: #000;
+    border-color: #5d5d5d;
+}
+
+.panel-body {
+    background: #151515;
+}
+
+#choiceList {
+	background: #151515;
+}
+
+.list-group-item {
+    background-color: #151515;
+    border: 1px solid #5d5d5d;
+}
+
+.panel-footer {
+    background-color: #2f2f2f;
+    border-top: 1px solid #5d5d5d;
+}
+
+.alertify .alert>*, 
+.alertify .dialog>* {
+    background: #000;
+}
+
+.alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button), 
+.alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button) {
+    color: #fff;
+    border: 1px solid #5d5d5d;
+}
+
+/* 페이지 하단 링크 */
+a {
+    color: #fff;
+}
 
 
 
