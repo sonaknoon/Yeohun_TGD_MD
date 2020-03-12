@@ -1,8 +1,9 @@
-/* ㅡㅡㅡㅡㅡ 코드 생성 중 1 ㅡㅡㅡㅡㅡ */
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 주석 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+/* 업데이트 : 2020.03.12 완료 */
+/* 노트패드 : 03.13 Github 오류 해결 후 코드 정리 예정 */
 
 @media (prefers-color-scheme: dark)
  {
-    
     :root {
 	  /* 색상 */
            --Dblackcolor: #151515;
@@ -516,32 +517,6 @@ body > div:nth-child(2) > div > div:nth-child(1) {
 a {
     color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
