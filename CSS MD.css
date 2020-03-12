@@ -17,6 +17,10 @@
            --after: "개";
 }
 
+body {
+    color: #fff;
+}
+
 header>#header-area>a>h1 {
       width: 200px;
 }
@@ -219,6 +223,10 @@ header>#header-area>#header-search-link {
     color: #aaa;
 }
 
+#article-list>.article-list-row.active {
+    background-color: #3e3e3e;
+}
+
 /*네비바*/
 
 nav#nav {
@@ -249,6 +257,80 @@ nav#nav > #nav-upper #noteDropdownContainer a,
 nav#nav > #nav-upper #userDropdownContainer a {
     color: #fff;
 }
+
+/* 드롭다운 메뉴 */
+.dropdown-menu>li>a {
+    color: #fff;
+}
+
+.dropdown.open .dropdown-menu,
+.input-group-btn.open .dropdown-menu {
+	border: 2px solid #5d5d5d;
+	background: #151515;
+}
+
+#latestDropdownMenu>li>a>span.delrow,
+#favoriteDropdownMenu>li>a>span.delrow {
+	color: #5d5d5d;
+}
+
+#latestDropdownMenu>li>a>span.delrow:hover,
+#favoriteDropdownMenu>li>a>span.delrow:hover {
+	background: transparent;
+}
+
+#favoriteDropdownMenu>li>a>span.label.label-default {
+	background-color: #5d5d5d;
+}
+
+.dropdown-menu .divider {
+	background-color: #5d5d5d;
+}
+
+#article-list>.article-list-row.active {
+    background-color: #3e3e3e;
+}
+
+#article-content-wrapper>.header {
+    background: #151515;
+    border-top: 2px solid #5d5d5d;
+    border-bottom: 2px solid #5d5d5d;
+}
+
+#article-content-wrapper>.footer {
+    border-top: 2px solid #5d5d5d;
+    border-bottom: 2px solid #5d5d5d;
+    background: #151515;
+}
+
+#article-info {
+    background: #151515;
+    border-bottom: none;
+}
+
+#article-content-wrapper {
+    width: 100%;
+    background: #151515;
+}
+
+#article-content-wrapper #article-content,
+#article-content-wrapper>.vote-area {
+    border-left: none;
+    border-right: none;
+}
+
+#article-reply-area {
+    background: #151515;
+}
+
+
+
+
+
+
+
+
+
 
 
 
