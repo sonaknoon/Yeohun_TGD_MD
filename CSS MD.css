@@ -22,7 +22,8 @@ body {
 }
 
 header>#header-area>a>h1 {
-      width: 200px;
+    width: 200px;
+    margin-left: 20px;
 }
 
 header {
