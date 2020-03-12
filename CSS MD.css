@@ -24,7 +24,7 @@ body {
 
 header>#header-area>a>h1 {
     width: 200px;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 header {
@@ -202,19 +202,6 @@ header>#header-area>#header-search-link {
 
 #article-list>.article-list-row>.item>a.list-title:visited {
     color: #676767 !important;
-}
-
-#article-list>.article-list-row>.item>.list-header>strong, 
-#article-list>.article-list-row>.item>.list-header>b {
-    font-size: 0px;
-}
-
-#article-list>.article-list-row>.item>.list-header>strong:after, 
-#article-list>.article-list-row>.item>.list-header>b:after {
-    font-family: 'fontawesome';
-    font-size: 15px;
-    color: #efc839;
-    content: '\f005';
 }
 
 #article-list>.article-list-row.notice>.item>.list-header>strong:after, #article-list>.article-list-row.notice>.item>.list-header>b:after {
