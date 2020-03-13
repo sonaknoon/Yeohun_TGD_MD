@@ -1,6 +1,6 @@
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 주석 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 /* 업데이트 : 2020.03.12 완료 */
-/* 노트패드 : 03.13 Github 오류 해결 후 코드 정리 예정 */
+/* 노트패드 : 컬러코드 통합 예정 (4월~) */
 
 @media (prefers-color-scheme: dark)
  {
@@ -18,20 +18,32 @@
            --after: "개";
 }
 
+/* 텍스트 (본문) */
 body {
     color: #fff;
 }
 
+/* 로고 */
 header>#header-area>a>h1 {
     width: 200px;
     margin-left: 20px;
 }
 
+/* 로고 영역 (상단바) */
 header {
     border-bottom: 4px solid #5d5d5d;
     background: #0d0d0d;
 }
 
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+    color: #5d5d5d;
+}
+
+header>#header-area>#header-search-link {
+    color: #5d5d5d;
+}
+
+/* 프로필바 영역 */
 #board-info {
     background: #151515;
     border-top: 2px solid #5d5d5d;
@@ -46,6 +58,15 @@ header {
     color: #c7c7c7;
 }
 
+#board-info>a.board-right-menu {
+    color: #5d5d5d;
+}
+
+.fa-caret-down:before {
+    color: #5d5d5d;
+}
+
+/* 전광판 광고 영역 */
 #header-top-notice {
     background: #0e0e0e;
 }
@@ -58,32 +79,35 @@ header {
     color: #fff !important;
 }
 
-.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
-    color: #5d5d5d;
+/* 카테고리 영역 */
+#article-list #article-list-category {
+    background: #303030;
 }
 
-header>#header-area>#header-search-link {
-    color: #5d5d5d;
+#article-list #article-list-category>a {
+    background: #303030;
 }
 
-#board-info>a.board-right-menu {
-    color: #5d5d5d;
+#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
+    background: #303030;
 }
 
-.fa-caret-down:before {
-    color: #5d5d5d;
+.fa-home:before {
+    color: #fff;
 }
 
-.fa-eye:before {
-    text-shadow: none;
-}
-
-.fa-eye-slash:before {
-    text-shadow: none;
+/* 공지 숨기기 버튼 */
+#article-list #article-option-area>#article-option-area-toggle-btn {
+    background: #303030;
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    border-top: 2px solid transparent;
+    margin-top: 0px;
+    opacity: 1;
 }
 
 /* 게시글 목록 */
-
 #article-list>.article-list-row.notice {
     background-color: #000;
 }
@@ -107,74 +131,6 @@ header>#header-area>#header-search-link {
 #article-list>.article-list-row>.item>.list-blocked, 
 #article-list>.article-list-row>.item>.list-time {
     border-bottom: 1px solid #5d5d5d;
-}
-
-.pagination-area {
-    background: #151515;
-}
-
-#article-list-menu {
-    background: #151515;
-}
-
-.btn {
-	color: #fff !important;
-	background-color: #000 !important;
-	border-color: #5d5d5d !important;
-}
-
-.btn:hover,
-.btn:focus {
-	color: #000 !important;
-	background-color: #fff !important;
-}
-
-/* 트게더 페이지 선택자 */
-.pagination>.active>a,
-.pagination>.active>a:focus,
-.pagination>.active>span,
-.pagination>.active>span:focus {
-	background-color: #000;
-	border-color: #5d5d5d;
-}
-
-.pagination>.active>a:hover,
-.pagination>.active>span:hover,
-.pagination>li>a:hover,
-.pagination>li>span:hover {
-	background-color: white;
-	border-color: #5d5d5d;
-	color: #000;
-}
-
-.pagination>li>a,
-.pagination>li>a:focus,
-.pagination>li>span
-.pagination>li>span:focus {
-	color: #fff;
-	border-color: #5d5d5d;
-	background: #303030;
-}
-
-#boardSearchForm .form-control {
-    background: #303030;
-    border-color: #5d5d5d;
-}
-
-#article-list #article-list-category {
-    background: #303030;
-}
-
-#article-list #article-list-category>a {
-    background: #303030;
-}
-
-#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
-    background: #303030;
-}
-
-.fa-home:before {
-    color: #fff;
 }
 
 #article-list>.article-list-row>.item>.list-header.v0>span {
@@ -224,25 +180,73 @@ header>#header-area>#header-search-link {
     background-color: #3e3e3e;
 }
 
-/* 공지 숨기기 버튼 */
-#article-list #article-option-area>#article-option-area-toggle-btn {
-    background: #303030;
-    width: 35px;
-    height: 35px;
-    line-height: 33px;
-    border-top: 2px solid transparent;
-    margin-top: 0px;
-    opacity: 1;
+/* 트게더 페이지 선택자 */
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>span,
+.pagination>.active>span:focus {
+	background-color: #000;
+	border-color: #5d5d5d;
 }
 
-/*네비바*/
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>li>a:hover,
+.pagination>li>span:hover {
+	background-color: white;
+	border-color: #5d5d5d;
+	color: #000;
+}
 
-nav#nav {
-    background: #0d0d0d;
+.pagination>li>a,
+.pagination>li>a:focus,
+.pagination>li>span
+.pagination>li>span:focus {
+	color: #fff;
+	border-color: #5d5d5d;
+	background: #303030;
+}
+
+/* 하단 영역 */
+.pagination-area {
+    background: #151515;
+}
+
+#article-list-menu {
+    background: #151515;
+}
+
+a {
+    color: #fff;
 }
 
 footer {
     background: #0e0e0e;
+}
+
+/* 하단 검색창 */
+#boardSearchForm .form-control {
+    background: #303030;
+    border-color: #5d5d5d;
+}
+
+/* 버튼 */
+.btn {
+	color: #fff !important;
+	background-color: #000 !important;
+	border-color: #5d5d5d !important;
+}
+
+.btn:hover,
+.btn:focus {
+	color: #000 !important;
+	background-color: #fff !important;
+}
+
+
+/* 네비바 (햄버거 메뉴) */
+nav#nav {
+    background: #0d0d0d;
 }
 
 nav#nav>#nav-upper-shortcut>.dropdown>a {
@@ -295,10 +299,7 @@ nav#nav > #nav-upper #userDropdownContainer a {
 	background-color: #5d5d5d;
 }
 
-#article-list>.article-list-row.active {
-    background-color: #3e3e3e;
-}
-
+/* 본문 */
 #article-content-wrapper>.header {
     background: #151515;
     border-top: 2px solid #5d5d5d;
@@ -329,23 +330,6 @@ nav#nav > #nav-upper #userDropdownContainer a {
 
 #article-reply-area {
     background: #151515;
-}
-
-/* 이전글 다음글 */
-#article-neighbor-list {
-    border-top: 1px solid #5d5d5d;
-}
-
-#article-neighbor-list {
-    background: #151515;
-}
-
-#article-neighbor-list>div>a {
-    color: #fff;
-}
-
-#article-neighbor-list>div:hover {
-	background: #3e3e3e;
 }
 
 /*댓글*/
@@ -453,6 +437,27 @@ div.fr-popup.fr-desktop.fr-ltr.emoticons {
 	background: #000;
 }
 
+/* 이전글 다음글 */
+#article-neighbor-list {
+    border-top: 1px solid #5d5d5d;
+}
+
+#article-neighbor-list {
+    background: #151515;
+}
+
+#article-neighbor-list>div>a {
+    color: #fff;
+}
+
+#article-neighbor-list>div:hover {
+	background: #3e3e3e;
+}
+
+#article-list>.article-list-row.active {
+    background-color: #3e3e3e;
+}
+
 /*상단 광고 영역 */
 body > div:nth-child(2) {
 	background: #0c0d0f !important;
@@ -515,19 +520,6 @@ body > div:nth-child(2) > div > div:nth-child(1) {
 #movetotop {
 	filter: grayscale(1);
 }
-
-/* 페이지 하단 링크 */
-a {
-    color: #fff;
-}
-
-
-
-
-
-
-
-
 
 
 
