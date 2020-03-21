@@ -224,6 +224,20 @@ footer {
     background: #0e0e0e;
 }
 
+/* 상단 검색창 */
+.fa-arrow-left:before {
+    color: #5d5d5d;
+}
+
+header > #header-search-bar #header-search-btn {
+    color: #5d5d5d;
+}
+
+header > #header-search-bar #header-search-input {
+    border: 2px solid #5d5d5d;
+    background: #303030;
+}
+
 /* 하단 검색창 */
 #boardSearchForm .form-control {
     background: #303030;
